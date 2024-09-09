@@ -31,8 +31,10 @@ Verweise:
 
 ### Hardware
 
-| <!-- --> | <!-- -->                                                     |
-| --- |  |
+
+
+| <!-- -->            | <!-- -->                                                     |
+| ---                 | ---                                                          |
 | Hardwaremodell      | Lenovo Yoga 7 16IAH7 82UF                                    |
 | Firmware-Version    | J1CN37WW                                                     |
 | Speicher            | 16,0 GiB                                                     |
@@ -46,36 +48,31 @@ Verweise:
 
 Folgende Software wird von mir  verwendet:
 
-| Kategorie / Anwendungszweck                   | Anwendung                                                    | Pakettyp                                                     |
-| --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Office**                                    |                                                              |                                                              |
-| Office-Paket                                  | [LibreOffice](https://de.libreoffice.org/)                   | Flatpak                                                      |
-| Markdown-Editor                               | [Typora](https://typora.io/)                                 | Flatpak                                                      |
-| PDF-Betrachter                                | GNOME Evince                                                 | Flatpak                                                      |
-| PDF-Editor                                    | [MASTER PDF Editor](https://code-industry.net/masterpdfeditor/) | Flatpak                                                      |
-| Scannprogramm                                 | [VueScan](https://www.hamrick.com/de/)                       | Flatpak                                                      |
-| Code-Editor                                   | [VSCode](https://code.visualstudio.com/)                     | Flatpak                                                      |
-| **Internet**                                  |                                                              |                                                              |
-| Browser                                       |                                                              |                                                              |
-| E-Mail, Kontakte, Kalender, Aufgaben, Notizen | GNOME Evolution                                              | Flatpak                                                      |
-| **Multimedia**                                |                                                              |                                                              |
-| Bildbearbeitung                               | [GIMP](https://www.gimp.org/)                                | Flatpak                                                      |
-| Musikstreaming                                | [Spotify](https://open.spotify.com/)                         | Flatpak                                                      |
-| Videoschnitt                                  | [Blender](https://www.blender.org/)                          | Flatpak                                                      |
-| **Tools**                                     |                                                              |                                                              |
-| AppImage                                      | [Go AppImage](https://github.com/probonopd/go-appimage)      | [AppImage](https://github.com/probonopd/go-appimage/releases/tag/continuous) |
-| Passwortmanager                               | [Bitwarden](https://bitwarden.com/)                          | Flatpak                                                      |
-| **Kommunikation**                             |                                                              |                                                              |
-| Messaging                                     | [Beeper](https://www.beeper.com/)                            | [AppImage](https://download.beeper.com/linux/appImage/x64)   |
-
-
-
+| Kategorie / Anwendungszweck | Software | Typ |
+| --- | --- | --- |
+| *Office** |   |   |
+| Office-Paket | [LibreOffice](https://de.libreoffice.org/) | Flatpak |
+| Markdown-Editor | [Typora](https://typora.io/) | Flatpak |
+| PDF-Betrachter | GNOME Evince | Flatpak |
+| PDF-Editor | [MASTER PDF Editor](https://code-industry.net/masterpdfeditor/) | Flatpak |
+| Scannprogramm | [VueScan](https://www.hamrick.com/de/) | Flatpak |
+| Code-Editor | [VSCode](https://code.visualstudio.com/) | Flatpak |
+| **Internet** |   |   |
+| Browser |   |   |
+| E-Mail, Kontakte, Kalender, Aufgaben, Notizen | GNOME Evolution | Flatpak |
+| **Multimedia** |   |   |
+| Bildbearbeitung | [GIMP](https://www.gimp.org/) | Flatpak |
+| Musikstreaming | [Spotify](https://open.spotify.com/) | Flatpak |
+| Videoschnitt | [Blender](https://www.blender.org/) | Flatpak |
+| **Tools** |   |   |
+| AppImage | [Go AppImage](https://github.com/probonopd/go-appimage) | [AppImage](https://github.com/probonopd/go-appimage/releases/tag/continuous) |
+| Passwortmanager | [Bitwarden](https://bitwarden.com/) | Flatpak |
+| **Kommunikation** |   |   |
+| Messaging | [Beeper](https://www.beeper.com/) | [AppImage](https://download.beeper.com/linux/appImage/x64) |
 
 ---
 
 ## OS Pre-Installation
-
-
 
 ---
 
