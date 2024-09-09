@@ -1,6 +1,7 @@
 # Fedora-Silverblue-40-Install-Guide
 
 By André Kurpanek
+Erstellt am 08. September 2024. Aktualisiert am 08. September 2024
 
 ---
 
@@ -23,18 +24,6 @@ Verweise:
 - [My Fedora Silverblue 40 Setup](https://gist.github.com/queeup/13c97bb059ca533ddca0ee12511c728f)
 
 - [Configure Intel Arc A370M Xe-HPG discrete GPU on Linux](https://unrahul.quarto.pub/technical-ramblings/posts/2022-08-12-arc-dgpu-linux.html)
-
----
-
-## Inhaltsverzeichnis
-
-1. [Informationen](#IInformationen)
-1. [OS Pre-Installation](#OSPre-Installation)
-1. [OS Installation](#OS Installation)
-1. [OS Post-Installation](#OS Post-Installation)
-   1. [ALSA-Audio Hardware konfigurieren](#ALSA-Audio Hardware konfigurieren)
-1. [Software Installation](#Software Installation)
-   1. [Flatpak Applikationen installieren](#Flatpak Applikationen installieren) 
 
 ---
 
@@ -90,7 +79,7 @@ Folgende Software wird von mir  verwendet:
 
 ---
 
-## OS Installation
+## OS-Installation
 
 Verweise: 
 
@@ -268,10 +257,6 @@ podman image pull registry.fedoraproject.org/fedora-toolbox:40
 rpm-ostree install distrobox
 ```
 
-
-
----
-
 ### Bash einrichten
 
 ```shell
@@ -315,13 +300,27 @@ flatpak install -y fedora \
 ```shell
 # Flathub Repository
 flatpak install -y flathub \
+  org.gnome.Boxes \
   io.typora.Typora \
   net.codeindustry.MasterPDFEditor \
   com.hamrick.VueScan \
   com.bitwarden.desktop \
   com.visualstudio.code \
+  com.visualstudio.code.tool.podman \
+  com.visualstudio.code.tool.git-lfs \
   com.google.Chrome \
-  com.spotify.Client \ 
+  com.spotify.Client \
+  org.localsend.localsend_app \
+  com.github.flxzt.rnote
+```
+
+---
+
+### Flatpak Applikationen konfigurieren
+
+```shell
+# GNOME Boxes: disable CoW for images
+chattr +C ~/.var/app/org.gnome.Boxes/data/gnome-boxes/images
 ```
 
 ---
