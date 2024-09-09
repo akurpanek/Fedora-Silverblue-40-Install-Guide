@@ -123,11 +123,6 @@ sudo rpm-ostree install --apply-live \
 ```
 
 ```shell
-# Reboot into new deployment
-systemctl reboot
-```
-
-```shell
 # Unlock and update versioned packages
 sudo rpm-ostree update \
   --uninstall rpmfusion-free-release \
