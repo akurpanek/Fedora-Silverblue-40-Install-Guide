@@ -1,7 +1,7 @@
 # Fedora-Silverblue-40-Install-Guide
 
 By André Kurpanek
-Erstellt am 08. September 2024. Aktualisiert am 08. September 2024
+Erstellt am 08. September 2024. Aktualisiert am 09. September 2024
 
 ---
 
@@ -303,12 +303,14 @@ flatpak install -y flathub \
   com.hamrick.VueScan \
   com.bitwarden.desktop \
   com.visualstudio.code \
-  com.visualstudio.code.tool.podman \
-  com.visualstudio.code.tool.git-lfs \
+  `#com.visualstudio.code.tool.podman` \
+  `#com.visualstudio.code.tool.git-lfs` \
   com.google.Chrome \
   com.spotify.Client \
   org.localsend.localsend_app \
-  com.github.flxzt.rnote
+  com.github.flxzt.rnote \
+  com.github.tchx84.Flatseal \
+  org.gnome.World.PikaBackup
 ```
 
 ---
