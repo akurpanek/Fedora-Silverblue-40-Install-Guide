@@ -31,6 +31,8 @@ Verweise:
 - https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 - https://discussion.fedoraproject.org/tags/c/ask/common-issues/82/all/f40
 
+- https://fedoraproject.org/wiki/Changes/TunedAsTheDefaultPowerProfileManagementDaemon
+
 
 firefox flatseal : xdg-config/fontconfig:ro
 ---
@@ -217,6 +219,23 @@ grep -iq '^options snd-sof-intel-hda-generic hda_model=alc287-yoga9-bass-spk-pin
 Verweise:
 
 - <https://wiki.archlinux.org/title/Lenovo_Yoga_9i_2022_(14AiPI7)#Audio>
+
+---
+
+### Power Manager austauschen
+
+<https://fedoraproject.org/wiki/Changes/TunedAsTheDefaultPowerProfileManagementDaemon>
+
+
+```shell
+# Switch to Tuned Power Manager
+sudo rpm-ostree update \
+  --uninstall power-profiles-daemon \
+  --install tuned-ppd
+
+systemctl reboot
+```
+
 
 ---
 
