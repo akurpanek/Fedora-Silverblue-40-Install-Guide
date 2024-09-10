@@ -28,6 +28,8 @@ Verweise:
 - https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
   - https://bugzilla.redhat.com/show_bug.cgi?id=1801539
 
+- https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
+- https://discussion.fedoraproject.org/tags/c/ask/common-issues/82/all/f40
 ---
 
 ## Informatiomen
