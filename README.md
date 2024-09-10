@@ -30,6 +30,9 @@ Verweise:
 
 - https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 - https://discussion.fedoraproject.org/tags/c/ask/common-issues/82/all/f40
+
+
+firefox flatseal : xdg-config/fontconfig:ro
 ---
 
 ## Informatiomen
