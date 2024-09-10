@@ -32,6 +32,8 @@ Verweise:
 - https://discussion.fedoraproject.org/tags/c/ask/common-issues/82/all/f40
 
 - https://fedoraproject.org/wiki/Changes/TunedAsTheDefaultPowerProfileManagementDaemon
+  
+- https://fedoramagazine.org/how-i-customize-fedora-silverblue-and-fedora-kinoite/
 
 
 firefox flatseal : xdg-config/fontconfig:ro
@@ -229,9 +231,8 @@ Verweise:
 
 ```shell
 # Switch to Tuned Power Manager
-sudo rpm-ostree update \
-  --uninstall power-profiles-daemon \
-  --install tuned-ppd
+systemctl unmask power-profiles-daemon.service
+sudo rpm-ostree install tuned-ppd
 ```
 ```shell
 systemctl reboot
