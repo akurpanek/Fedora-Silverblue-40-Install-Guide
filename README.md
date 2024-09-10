@@ -25,6 +25,9 @@ Verweise:
 
 - [Configure Intel Arc A370M Xe-HPG discrete GPU on Linux](https://unrahul.quarto.pub/technical-ramblings/posts/2022-08-12-arc-dgpu-linux.html)
 
+- https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
+  - https://bugzilla.redhat.com/show_bug.cgi?id=1801539
+
 ---
 
 ## Informatiomen
@@ -156,6 +159,10 @@ rpm-ostree kargs --append=i915.enable_psr=0
 ```shell
 # If fixed, enable Intel PSR for future releases
 #rpm-ostree kargs --delete=i915.enable_psr=0
+```
+```shell
+# Fix Red Hat Bugzilla – Bug 1801539
+rpm-ostree kargs --append=rd.luks.options=discard
 ```
 
 ```shell
