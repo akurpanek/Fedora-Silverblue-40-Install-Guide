@@ -153,7 +153,8 @@ Verweise:
 
 ```shell
 # Disable Intel PSR
-rpm-ostree kargs --append=i915.enable_psr=0
+# Fixed in Silverblue 40 btw. in kernel 6.5+
+#rpm-ostree kargs --append=i915.enable_psr=0
 ```
 
 ```shell
@@ -180,7 +181,9 @@ Verweise:
 
 ```shell
 # Alder Lake-P (Mobile) and newer
-rpm-ostree kargs --append=i915.enable_guc=3
+#rpm-ostree kargs --append=i915.enable_guc=3
+# Fixed in Silverblue 40
+sudo dmesg | grep -iE '(G|H)uC'
 ```
 
 ```shell
