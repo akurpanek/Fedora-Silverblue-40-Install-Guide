@@ -348,7 +348,8 @@ flatpak install -y flathub \
   org.localsend.localsend_app \
   com.github.flxzt.rnote \
   com.github.tchx84.Flatseal \
-  org.gnome.World.PikaBackup
+  org.gnome.World.PikaBackup \
+  com.google.Chrome
 ```
 
 ---
