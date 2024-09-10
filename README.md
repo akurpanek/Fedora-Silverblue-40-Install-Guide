@@ -232,7 +232,8 @@ Verweise:
 sudo rpm-ostree update \
   --uninstall power-profiles-daemon \
   --install tuned-ppd
-
+```
+```shell
 systemctl reboot
 ```
 
