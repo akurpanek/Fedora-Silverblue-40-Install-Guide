@@ -35,6 +35,8 @@ Verweise:
   
 - https://fedoramagazine.org/how-i-customize-fedora-silverblue-and-fedora-kinoite/
 
+- <https://github.com/flathub/org.gnome.Boxes.Extension.OsinfoDb>
+
 
 firefox flatseal : xdg-config/fontconfig:ro
 ---
@@ -333,6 +335,7 @@ flatpak install -y fedora \
 # Flathub Repository
 flatpak install -y flathub \
   org.gnome.Boxes \
+  org.gnome.Boxes.Extension.OsinfoDb \
   io.typora.Typora \
   net.codeindustry.MasterPDFEditor \
   com.hamrick.VueScan \
