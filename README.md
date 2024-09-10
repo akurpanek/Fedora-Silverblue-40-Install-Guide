@@ -231,8 +231,7 @@ Verweise:
 
 ```shell
 # Switch to Tuned Power Manager
-systemctl unmask power-profiles-daemon.service
-sudo rpm-ostree install tuned-ppd
+rpm-ostree override --dry-run remove power-profiles-daemon --install=tuned-ppd
 ```
 ```shell
 systemctl reboot
