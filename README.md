@@ -36,6 +36,7 @@ Verweise:
 - https://fedoramagazine.org/how-i-customize-fedora-silverblue-and-fedora-kinoite/
 
 - <https://github.com/flathub/org.gnome.Boxes.Extension.OsinfoDb>
+- <https://blog.while-true-do.io/fedora-my-workstation-setup/>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
