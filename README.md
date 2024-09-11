@@ -40,6 +40,7 @@ Verweise:
 - <https://blog.while-true-do.io/fedora-my-workstation-setup/>
   - <https://github.com/whiletruedoio/whiletruedoio.desktop>
   - <https://blog.while-true-do.io/ansible-linux-workstation-management/>
+  - <https://blog.while-true-do.io/container-gtk-tools/>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
