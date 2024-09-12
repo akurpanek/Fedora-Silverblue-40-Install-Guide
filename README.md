@@ -54,6 +54,8 @@ Verweise:
 - 
 - <https://www.dvlv.co.uk/pages/a-beginners-guide-to-fedora-silverblue.html>
 
+- <https://github.com/queeup/silverblue-kickstarter>
+
 
 firefox flatseal : xdg-config/fontconfig:ro
 ---
