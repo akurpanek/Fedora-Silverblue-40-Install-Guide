@@ -45,6 +45,8 @@ Verweise:
 - <https://blog.rymcg.tech/blog/linux/rclone_sync/>
 
 - <https://davejansen.com/using-vscode-flatpak-with-1password-ssh-git-signing/>
+  
+- <https://davejansen.com/install-macos-big-sur-public-release-in-a-vm-qemu/>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
