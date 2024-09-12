@@ -41,6 +41,8 @@ Verweise:
   - <https://github.com/whiletruedoio/whiletruedoio.desktop>
   - <https://blog.while-true-do.io/ansible-linux-workstation-management/>
   - <https://blog.while-true-do.io/container-gtk-tools/>
+ 
+- <https://blog.rymcg.tech/blog/linux/rclone_sync/>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
