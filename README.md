@@ -48,6 +48,8 @@ Verweise:
   
 - <https://davejansen.com/install-macos-big-sur-public-release-in-a-vm-qemu/>
 
+- <https://github.com/89luca89/distrobox#curl-or-wget>
+
 
 firefox flatseal : xdg-config/fontconfig:ro
 ---
