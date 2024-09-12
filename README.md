@@ -44,6 +44,8 @@ Verweise:
  
 - <https://blog.rymcg.tech/blog/linux/rclone_sync/>
 
+- <https://davejansen.com/using-vscode-flatpak-with-1password-ssh-git-signing/>
+
 
 firefox flatseal : xdg-config/fontconfig:ro
 ---
