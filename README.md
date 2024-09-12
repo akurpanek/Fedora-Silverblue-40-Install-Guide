@@ -25,6 +25,8 @@ Verweise:
 
 - [Configure Intel Arc A370M Xe-HPG discrete GPU on Linux](https://unrahul.quarto.pub/technical-ramblings/posts/2022-08-12-arc-dgpu-linux.html)
 
+- <https://lurkerlabs.com/fedora-silverblue-ultimate-post-install-guide/>
+
 - https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
   - https://bugzilla.redhat.com/show_bug.cgi?id=1801539
 
