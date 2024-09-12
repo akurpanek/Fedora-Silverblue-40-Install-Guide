@@ -49,6 +49,8 @@ Verweise:
 - <https://davejansen.com/install-macos-big-sur-public-release-in-a-vm-qemu/>
 
 - <https://github.com/89luca89/distrobox#curl-or-wget>
+- 
+- <https://www.dvlv.co.uk/pages/a-beginners-guide-to-fedora-silverblue.html>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
