@@ -56,6 +56,7 @@ Verweise:
 
 - <https://github.com/queeup/silverblue-kickstarter>
 - <https://gist.github.com/queeup/13c97bb059ca533ddca0ee12511c728f>
+- <https://medium.com/@codenomad/silverblue-setting-up-my-environment-19597dd030f9>
 
 
 firefox flatseal : xdg-config/fontconfig:ro
