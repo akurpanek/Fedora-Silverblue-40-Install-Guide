@@ -45,4 +45,6 @@ Verweise:
 - <https://github.com/xtianbetz/new-machine-quick-setup-guide>
 
 
+- <https://yorickpeterse.com/articles/switching-to-fedora-silverblue/>
+
 firefox flatseal : xdg-config/fontconfig:ro
