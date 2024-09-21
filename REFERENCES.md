@@ -42,6 +42,7 @@ Verweise:
 - <https://medium.com/@codenomad/silverblue-setting-up-my-environment-19597dd030f9>
 
 - <https://1password.community/discussion/124126/sandboxed-application-cant-communicate-with-browser-extension/p2>
+
 - <https://github.com/xtianbetz/new-machine-quick-setup-guide>
 
 
