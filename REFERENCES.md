@@ -49,5 +49,7 @@ Verweise:
 - <https://yorickpeterse.com/articles/switching-to-fedora-silverblue/>
 
 - <https://github.com/j1mc/ansible-silverblue>
+- 
+- <https://gist.github.com/queeup/13c97bb059ca533ddca0ee12511c728f>
 
 firefox flatseal : xdg-config/fontconfig:ro
